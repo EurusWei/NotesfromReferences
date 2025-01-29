@@ -1,4 +1,3 @@
-# Notes from ESL
 ## Chapter 1
 P15 effective number of parameters for KNN
 > It appears that $k$-nearest-neighbor fits have a single parameter, the number of neighbors $k$, compared to the $p$ parameters in least-squares fits. Although this is the case, we will see that the effective number of parameters of $k$-nearest-neighbors is $N/k$ and is generally bigger than $p$, and decreases with increasing $k$. To get an idea of why, note that if the neighborhoods were overlapping, there would be $N/k$ neighborhoods and we would fit one parameter (a mean) in each neighborhood.

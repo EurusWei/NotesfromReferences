@@ -13,6 +13,7 @@ $\hat{\beta} = (X^TX)^{-1}X^TY$. Related properties:
 - For a regression equation with intercept, $R^2$ is the square of the correlation between $\hat{Y}$ and $Y$.
 - $R^2=var(X\hat{\beta})/var(Y)$ measures goodness of fit, not the validity of any underlying causal model.
 - If the variables are orthogonal to each other, dropping one in the model, the estimates of else parameters will remain the same. However, if they are correlated (there is "collinearity"), dropping one varaible will induce the *omitted-variable bias* in estimates, as the disturbance term is now correlated with rest variables, and regression on them picks up the effect of the omitted variable. See Exercises 4B.5,8,10,11,12.
+- If a variable correlated with error term is put into the model, *endogenous bias* will be induced. Exercise 4B.14 discuesses about putting extra variabels into the model: it will likeliy reduces the sampling error in estimates, and guards against omitted-variables bias. On the other hand, endogeneity bias is a possibility, and collinearity may be more of a problem.
 
 # Discussion on P53
 > What happens to OLS if the assumptions break down?
