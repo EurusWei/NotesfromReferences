@@ -2,7 +2,7 @@ P43
 > For prediction purposes linear models can sometimes outperform fancier nonlinear models, especially in situations with small numbers of training cases, low signal-to-noise ratio or sparse data.
 
 P44
-> The fitted values at the training inputs are $\hat{\bm{y}}=\bm{X}\hat{\beta}=\bm{X}(\bm{X}^T\bm{X})^{-1}\bm{X}^T\bm{y}$, where the matrix $\bm{H}=\bm{X}\hat{\beta}=\bm{X}(\bm{X}^T\bm{X})^{-1}\bm{X}^T$ is sometimes called the "hat" matrix because it puts the hat on $\bm{y}$....the resulting $\hat{\bm{y}}$ is the *orthogonal projection* of $\bm{y}$ onto the column space of $\bm{X}$....If the columns of $\bm{X}$ are not linearly independent, $\bm{X}$ is not of full rank, then $\bm{X}^T\bm{X}$ is singular and the least squares coefficients $\hat{\beta}$ are not uniquely defined....the non-full-rank case occurs most often when one or more qualitative inputs are coded in a redundant fashion.
+> The fitted values at the training inputs are $\hat{\mathbf{y}}=\bm{X}\hat{\beta}=\bm{X}(\bm{X}^T\bm{X})^{-1}\bm{X}^T\bm{y}$, where the matrix $\bm{H}=\bm{X}\hat{\beta}=\bm{X}(\bm{X}^T\bm{X})^{-1}\bm{X}^T$ is sometimes called the "hat" matrix because it puts the hat on $\bm{y}$....the resulting $\hat{\bm{y}}$ is the *orthogonal projection* of $\bm{y}$ onto the column space of $\bm{X}$....If the columns of $\bm{X}$ are not linearly independent, $\bm{X}$ is not of full rank, then $\bm{X}^T\bm{X}$ is singular and the least squares coefficients $\hat{\beta}$ are not uniquely defined....the non-full-rank case occurs most often when one or more qualitative inputs are coded in a redundant fashion.
 
 P47 more results can be found on notes of statistical models
 > $(N-p-1)\hat{\sigma}^2 \sim \sigma^2\chi^2_{N-p-1}$.
