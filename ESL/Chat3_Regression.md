@@ -39,3 +39,9 @@ P69
 > Lasso does a kind of continuous subset selection.
 
 P72 add later, consider the bayesian info here
+
+P82
+> Ridge regression shrinks all directions, but shrinks low-variance directions more. Principal components regression leaves $M$ high-variance directions alone, and discards the rest. Interestingly, it can be shown that partial least squares also tends to shrink the low-variance directions, but can actually inflate some of the higher variance directions.
+
+P93 
+> Least squares fitting is usually done via the Cholesky decomposition of the matrix $X^TX$ or a QR decomposition of $X$. With $N$ observations and $p$ features, the Cholesky decomposition requires $p^3+Np^2/2$ operations, while the QR decomposition requires $Np^2$ operations.
