@@ -10,4 +10,4 @@
 ### Exercise 7.5.9
 People often use observational studies to demonstrate causation, but there's a big problem. What is an observational study, what's the problem, and how do people try to get around it? 
 
-In an experiment, the investigator assigns themselves (or are assigned by some third party). The big problem is confounding. Possible solutions include stratification and modeling.
+Reference answer: in an experiment, the investigator assigns themselves (or are assigned by some third party). The big problem is confounding. Possible solutions include stratification and modeling.
