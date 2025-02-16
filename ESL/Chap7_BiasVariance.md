@@ -16,3 +16,12 @@ P224
 P226
 > The overall point is that the bias-variance tradeoff behaves differently for $0-1$ loss than it does for squared error loss. This in true means that the best choices of tuning parameters may differ substantially in the two settings. One should base the choice of tuning parameter on an estimate of prediction error.
 
+P229
+> For squared error, $0-1$, and other loss functions, one can show quite generally that $\omega\equiv\frac{2}{N}\sum_{i=1}^N Cov(\hat{y}_i, y_i)$. Thus the amount by which $\overline{err} underestimates the true error depends on how strongly $y_i$ affects its own prediction. The harder we fit the data, the greater $Cov(\hat{y}_i, y_i)$ will be, thereby increasing the optimism.
+
+P230
+> An obvious way to estimate prediction error is to estimate the optimism and then add it to the training error $\overline{err}$. The methods described in the next section -- $C_p$, $AIC$, $BIC$ and others -- work in this way, for a special class of estimates that are linear in their parameters.
+
+> In contrast, cross-validation and bootstrap methods, described later in the chapter, are direct estimates of the extra-sample error $Err$. These general tools can be used with any loss function, and with nonlinear, adaptive fitting techniques.
+
+> In-sample error is not usually of direct interest since future values of the features are not likely to coincide with their training set values. But for comparison betweenn models, in-sample error is convenient and often lead to effective model selection. The reason is that the relative (rather than absolute) size of the errors is what matters.
