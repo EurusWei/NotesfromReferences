@@ -29,3 +29,9 @@ P230
 > The general form of the in-sample estiamtes is $\hat{Err}_{in}=\overline{err}+\hat{\omega}$, where $\hat{\omega}$ is an estimate of the average optimism.
 - $C_p=\overline{err} + 2\frac{d}{N}\hat{\sigma}^2_{\epsilon}$, where $\hat{\sigma}^2_{\epsilon}$ is an estimate of the noise variance, obtained from the mean-squared error of a low-bias model. 
 - $AIC=-\frac{2}{N}\cdot loglik+2\cdot\frac{d}{N}$, AIC is a similar but more generally applicable estiamte of $\hat{Err}_{in}$ when a log-likelihood loss function is used. 
+
+P233
+- $BIC=-2\cdot loglik+logN\cdot d$...Choosing the model with minimum BIC is equivalent to choosing the model with largest (approximate) posterior probability.
+
+P235
+> There is no clear choice between AIC and BIC. BIC is asymptotically consistent as a selection criterion. What this means is that given a family of models, including the true model, the probability that BIC will select the correct model approaches one as the sample size $N$ goes to infinity. On the other hand, for finite samples, BIC often chooses models that are too simple, because of its heavy penalty on complexity.
