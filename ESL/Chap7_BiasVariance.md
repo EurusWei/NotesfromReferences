@@ -35,3 +35,8 @@ P233
 
 P235
 > There is no clear choice between AIC and BIC. BIC is asymptotically consistent as a selection criterion. What this means is that given a family of models, including the true model, the probability that BIC will select the correct model approaches one as the sample size $N$ goes to infinity. On the other hand, for finite samples, BIC often chooses models that are too simple, because of its heavy penalty on complexity.
+
+P242
+> It is intereting to wonder about what quantity $K$-fold cross-validation estimates. With $K=5$ or $10$, we might guess that it estimates the expected error $Err$, since the training sets in each fold are quite different from the original training set. On the other hand, if $K=N$ we might guess that cross-validation estiamtes the conditional error $Err_{\mathcal{T}}. It turns out that cross-validation only estimates effectively the average error $Err$.
+
+> With $K=N$, the cross-validation estimator is approximately unbiased for the true (expected) prediction error, but can have high variance because the $N$ "training sets" are so similar to one another...On the other hand, with $K=5$ say, cross-validation has lower variance. But bias could be a problem, depending on how the performance of the learning method varies with the size of the training set.
