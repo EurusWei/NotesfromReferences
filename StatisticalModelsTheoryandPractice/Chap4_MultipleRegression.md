@@ -18,3 +18,4 @@ $\hat{\beta} = (X^TX)^{-1}X^TY$. Related properties:
 # Discussion on P53
 > What happens to OLS if the assumptions break down?
 >> If $E(\epsilon|X)\neq 0_{n\times 1}$, the bias in the OLS estimator is $(X^TX)^{-1}X^TE(\epsilon|X)$. If $E(\epsilon|X)= 0_{n\times 1}$ but $cov(\epsilon|X)\neq \sigma^2 I_{n\times n}$, OLS will be unbiased. However, $\hat{\sigma}^2(X^TX)^{-1}$ may be a misleading estimator of $cov(\hat{\beta}|X)$, and significance levels would not be trustworthy, for those are based on standard errors.
+
