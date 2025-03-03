@@ -40,3 +40,10 @@ P242
 > It is intereting to wonder about what quantity $K$-fold cross-validation estimates. With $K=5$ or $10$, we might guess that it estimates the expected error $Err$, since the training sets in each fold are quite different from the original training set. On the other hand, if $K=N$ we might guess that cross-validation estiamtes the conditional error $Err_{\mathcal{T}}. It turns out that cross-validation only estimates effectively the average error $Err$.
 
 > With $K=N$, the cross-validation estimator is approximately unbiased for the true (expected) prediction error, but can have high variance because the $N$ "training sets" are so similar to one another...On the other hand, with $K=5$ say, cross-validation has lower variance. But bias could be a problem, depending on how the performance of the learning method varies with the size of the training set.
+
+P249
+> As with cross-validation, the bootstrap seeks to estimate the conditional error $Err_{\mathcal{T}}, but typically estimates well only the expected prediction error $Err$.
+> Note that $\widehat{Var}[S(\boldsymbol{Z})]$ can be thought of as a Monte-Carlo estimate of the variance of $S(\boldsymbol{Z})$ under sampling from the empirical distribution function $\hat{F}$ for the data $(z_1,...,z_N)$.
+
+P251
+> 
