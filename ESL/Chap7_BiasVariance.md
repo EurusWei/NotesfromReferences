@@ -46,4 +46,4 @@ P249
 > Note that $\widehat{Var}[S(\boldsymbol{Z})]$ can be thought of as a Monte-Carlo estimate of the variance of $S(\boldsymbol{Z})$ under sampling from the empirical distribution function $\hat{F}$ for the data $(z_1,...,z_N)$.
 
 P251
-> 
+> The leave-one out bootstrap solves the overfitting problem suffered by $\widehat{Err}_{boot}$, but has the training-set-size bias mentioned in the discussion of cross-validation. The average number of distinct observations in each bootstrap sample is about $0.632\cdot N$, so its bias will roughly behave like that of twofold cross-validation. Thus if the learning curve has considerable slope at sample size $N/2$, the leave-one out bootstrap will be biased upward as an estimate of the true error. The "$.632$ estimator" is designed to alleviate this bias. It is defined by $\widehat{Err}^{(.632)}=.368\cdot\overline{err} + .632\cdot\widehat{Err}^{(1)}$.
