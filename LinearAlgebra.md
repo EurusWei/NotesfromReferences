@@ -25,6 +25,16 @@ P109
 P111
 > Even if $m=n$, it is very likely that $\boldsymbol{A}^T\boldsymbol{A}\neq\boldsymbol{A}\boldsymbol{A}^T$. Equality can happen, but it is abnormal.
 
+P112
+> If $\boldsymbol{S}=\boldsymbol{S}^T$ is factored into LDU with no row changes, then $\boldsymbol{U}$ is exactly $\boldsymbol{L}$.
+
+> A single row exchange is its own inverse. More import: $\boldsymbol{P}^{-1}$ is always the same as $\boldsymbol{P}^T$.
+
+P126
+> The system $Ax=b$ is solvable if and only if $b$ is in the column space of $A$.
+
+> Suppose $A$ is an $m$ by $n$ matrix. If columns have $m$ components (not $n$). So the columns belong $\mathbb{R}^m$ (not $\mathbb{R}^n$).
+
 
 
 https://homepages.uc.edu/~herronda/linear_algebra/beamers/Chpt6Sect1OC-H.pdf
