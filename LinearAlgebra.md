@@ -35,7 +35,21 @@ P126
 
 > Suppose $A$ is an $m$ by $n$ matrix. If columns have $m$ components (not $n$). So the columns belong $\mathbb{R}^m$ (not $\mathbb{R}^n$).
 
+P134
+> The nullspace $N(A)$ consists of all solutions to $Ax=0$. These vectors $\boldsymbol{x}$ are in $\mathbb{R}^n$.
 
+P135
+> Every matrix with $m<n$ has nonzero solutions to $Ax=0$ in its nullspace.
 
-https://homepages.uc.edu/~herronda/linear_algebra/beamers/Chpt6Sect1OC-H.pdf
+> The free components correspond to columns with no pivots. The special choice(one or zero) is only for the free variables in the special solutions. (RMK: from this we can see the dimension of $N(A)$ is $n-r$.)
+
+P136
+> When we add extra equations (giving extra rows), the nullspace certainly cannot become larger. The extra rows impose more conditions on the vectors $\boldsymbol{x}$ in the nullspace.
+
+> Update pivot rows and divide the pivot row by its pivot don't change the zero vector on the RHS of the equation, so the nullspace stays the same: $N(A)=N(U)=N(R)$.
+
+RMK: a good visualization of dimensions of column space and nullspace can be found in: https://homepages.uc.edu/~herronda/linear_algebra/beamers/Chpt6Sect1OC-H.pdf
+
+P137
+> Suppose $Ax=0$ has more unknowns than equations ($n > m$, more columns than rows). There must be at least one free column. Then $Ax=0$ has nonzero solutions.
 
