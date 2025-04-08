@@ -50,6 +50,13 @@ P136
 
 RMK: a good visualization of dimensions of column space and nullspace can be found in: https://homepages.uc.edu/~herronda/linear_algebra/beamers/Chpt6Sect1OC-H.pdf
 
-P137
-> Suppose $Ax=0$ has more unknowns than equations ($n > m$, more columns than rows). There must be at least one free column. Then $Ax=0$ has nonzero solutions.
+P138
+> Suppose $Ax=0$ has more unknowns than equations ($n > m$, more columns than rows). There must be at least one free column. Then $Ax=0$ has nonzero solutions. 
+
+> The nullspace if a subspace. Its dimension is the number of free variables.
+
+> The rank of $\boldsymbol{A}$ is the nuber of pivots.
+
+
+
 
