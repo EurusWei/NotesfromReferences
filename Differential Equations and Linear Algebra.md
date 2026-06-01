@@ -96,7 +96,7 @@ Some numerical methods:
 ### 6.3
 Consider a first order linear system $d\boldsymbol{y}/dt=\boldsymbol{A}\boldsymbol{y}+\boldsymbol{q}$. If $\boldsymbol{A}$ is a constant matrix, then
 - find out eigenvalues $\lambda_1,...,\lambda_n$, eigenvectors $\boldsymbol{x}_1,...,\boldsymbol{x}_n$ of $\boldsymbol{A}$, express the initial condition as a linear combination of eigenvectors, i.e., $\boldsymbol{y}(0)=c_1\boldsymbol{x}_1+...+c_n\boldsymbol{x}_n$
-- the output is $\boldsymbol{y}(t)=c_1e^{\lambda_1 t}\boldsymbol{x}_1+...+c_ne^{\lambda_n t}\boldsymbol{x}_n$
+- the output is $\boldsymbol{y}(t)=c_1e^{\lambda_1 t}\boldsymbol{x}_1+...+c_ne^{\lambda_n t}\boldsymbol{x}_n$ 
 Higher order equations can also be expressed in the matrix form.
 
 ### 6.4
